@@ -1,65 +1,46 @@
-# 🧠 Tetra 3D Advanced
+# Tetra 3d Advanced
 
-سیستم پیشرفته پردازش مدل‌های سه‌بعدی با الگوریتم‌های مبتنی بر ریاضیات گسسته
+## 📋 درباره پروژه
+این پروژه بخشی از اکوسیستم **TetraShop** است.
+
+- **نوع:** NODEJS
+- **تعداد فایل‌ها:** 9
 
 ## 🚀 ویژگی‌ها
-
-- **تبدیل هوشمند 2D به 3D** با الگوریتم‌های اختصاصی
-- **کاهش پیچیدگی** مبتنی بر کره گسسته
-- **پردازش ریاضی** با سیستم‌های پیشامد
-- **بهینه‌سازی خودکار** توپولوژی
-
-## 🛠️ تکنولوژی‌ها
-
-- Three.js برای رندرینگ سه‌بعدی
-- Vite برای build و development
-- Vercel برای deployment
-- ریاضیات گسسته برای الگوریتم‌ها
+- کد تمیز و بهینه
+- آماده برای توسعه
+- پشتیبانی از آخرین تکنولوژی‌ها
 
 ## 📦 نصب و راه‌اندازی
 
+### پیش‌نیازها
+- Node.js 16+
+
+### نصب
 ```bash
-git clone https://github.com/your-username/tetra-3d-advanced.git
+git clone https://github.com/tetrashop/tetra-3d-advanced.git
 cd tetra-3d-advanced
 npm install
-npm run dev
-npm run build
-# آپلود فایل‌های dist به GitHub Pages
-npm run build
-vercel --prod
-src/
-├── components/          # کامپوننت‌های اصلی
-│   ├── converter.js    # مبدل 2D به 3D
-│   └── reducer.js      # کاهش دهنده پیچیدگی
-├── styles/             # استایل‌ها
-│   └── main.css        # استایل اصلی
-├── utils/              # توابع کمکی
-└── main.js             # فایل اصلی
+```
 
-### 10. فایل Gitignore
+## 🔧 استفاده
 ```bash
-cat > .gitignore << 'EOF'
-# Dependencies
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+npm start
+```
 
-# Build outputs
-dist/
-build/
+## 🤝 مشارکت
+1. Fork کنید
+2. Branch جدید: `git checkout -b feature/your-feature`
+3. Commit: `git commit -m 'Add feature'`
+4. Push: `git push origin feature/your-feature`
+5. Pull Request باز کنید
 
-# Environment variables
-.env
-.env.local
+## 📝 مجوز
+MIT License
 
-# IDE
-.vscode/
-.idea/
+## 🌐 ارتباط با ما
+- **وبسایت:** [tetrashop.ir](https://tetrashop.ir)
+- **گیت‌هاب:** [github.com/tetrashop](https://github.com/tetrashop)
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
+---
+**آخرین به‌روزرسانی:** 2026-08-12
